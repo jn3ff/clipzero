@@ -1,4 +1,4 @@
-## clipzero ##
+# clipzero #
 
 a simple clipboard manager. install with the build script ```build.sh``` (need rust installed) and run with clipzero
 This application is best run in the background
@@ -6,7 +6,7 @@ This application is best run in the background
 No config options yet, probably none coming unless requested, so if overriding cmd+0 is not cool with you,
 please open an issue so I can make this overridable.
 
-# Usage #
+## Usage ##
 
 run with ```clipzero```
 
