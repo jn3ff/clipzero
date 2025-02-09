@@ -10,6 +10,6 @@ please open an issue so I can make this overridable.
 
 run with ```clipzero```
 
-open the window with cmd+0
-cycle through clipboard history with 1-9.
-hit enter to copy selected command to clipboard, or esc to close the window
+- open the window with cmd+0
+- cycle through clipboard history with 1-9.
+- hit enter to copy selected command to clipboard, or esc to close the window
