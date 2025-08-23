@@ -4,7 +4,7 @@ a simple clipboard manager. install with the build script ```build.sh``` (need r
 This application is best run in the background
 
 No config options yet, probably none coming unless requested, so if overriding cmd+0 is not cool with you,
-please open an issue so I can make this overridable.
+please open an issue (I could do it quick) or PR to make it overridable.
 
 ## Usage ##
 
