@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-FORMULA="clipzero.rb"
+FORMULA="Formula/clipzero.rb"
 REPO="jn3ff/clipzero"
 
 # Get current version from formula
