@@ -236,8 +236,8 @@ impl Application for ClipboardManager {
                 items = items.push(text("Out of range of stored history."))
             } else {
                 let mut content = self.history.get(curr).expect("help").clone();
-                if content.len() > 100 {
-                    content = String::from(&content.as_str()[..100]);
+                if content.chars().count() > 100 {
+                    content = content.chars().take(100).collect();
                     content.push_str("...");
                 }
                 items = items.push(text(content));
