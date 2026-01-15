@@ -1,9 +1,9 @@
 class Clipzero < Formula
   desc "A simple clipboard manager"
   homepage "https://github.com/jn3ff/clipzero"
-  url "https://github.com/jn3ff/clipzero/archive/refs/tags/test.tar.gz"
-  version "0.1.0"
-  sha256 "afee961455ccc3a98c3e8f285cb11d41d436a07d19f46422104477770d009875"
+  url "https://github.com/jn3ff/clipzero/archive/refs/tags/v0.1.1.tar.gz"
+  version "0.1.1"
+  sha256 "ee12b2f308e2ee177d2df0cde2c90b5c6467bd251366cdd26016cd08f69f2bca"
   license "MIT"
 
   depends_on "rust" => :build
