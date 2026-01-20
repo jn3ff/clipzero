@@ -1,14 +1,25 @@
 # clipzero #
 
-a simple clipboard manager. install with the build script ```build.sh``` (need rust installed) and run with clipzero
-This application is best run in the background
+A simple clipboard manager for macOS.
 
-No config options yet, probably none coming unless requested, so if overriding cmd+0 is not cool with you,
-please open an issue (I could do it quick) or PR to make it overridable.
+## Installation ##
+
+```bash
+brew tap jn3ff/clipzero
+brew install clipzero
+```
 
 ## Usage ##
 
-run with ```clipzero```
+Run as a background service (recommended):
+```bash
+brew services start clipzero
+```
+
+Or run directly:
+```bash
+clipzero
+```
 
 - open the window with cmd+0
 - cycle through clipboard history with 1-9.
